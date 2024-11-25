@@ -1,0 +1,23 @@
+This plugin provides custom login, registration, and user dashboards for WordPress users. It includes separate admin and user dashboards, role-based access control, post creation and deletion capabilities, and a logout redirect.
+
+Setup
+
+To use this plugin, you’ll need to create several pages and place shortcodes in each one for different functionalities.
+
+Example Page Setup
+
+Register Login Page:
+
+Content: [clr_register]
+
+Content: [clr_login]
+
+Admin Dashboard:
+
+Content: [clr_admin_dashboard]
+Note: Only accessible by administrators.
+User Dashboard:
+
+Content: [clr_dashboard]
+Create Post Page 
+Content: [clr_create_post]
